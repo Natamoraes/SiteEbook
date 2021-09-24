@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+:root {
+    --primary-color: rgba(255, 77, 0, 1);
+}
+
+.navbar-brand {
+    font-family: "Niconne", cursive;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+nav {
+    z-index: 10;
+    background-color: #fff;
+}
+
+.informatica {
+    color: var(--primary-color);
+}
+
+.navbar ul li a {
+    font-size: 20px;
+}
+
+#hero-section {
+    background-image: url("image/chris-benson-hH6sYIS6PqY-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 650px;
+    position: relative;
+    margin-top: -86px;
+    z-index:9;
+}
+
+#hero-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+}
+
+#hero-section h1 {
+    text-transform: uppercase;
+    margin-top: 35vh;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 44px;
+}
+
+#hero-section .learn_more {
+    background-color: var(--primary-color);
+    border: 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#hero-section .learn_more:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid #fff;
+}
+
+#hero-section .download_now {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#hero-section .download_now:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 1px solid var(--primary-color);
+}
+
+.subscribe {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    min-height: 20px;
+}
+
+#subscribe-title {
+    color: #fff;
+    font-weight: 400;
+}
+
+#nome {
+    border-color: var(--primary-color);
+    border-radius: 50px;
+}
+
+#email {
+    border-color: var(--primary-color);
+    border-radius: 50px;
+}
+
+#subscribe {
+    border-radius: 50px;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+#texto_col {
+    margin-top: 20px;
+}
+
+#texto_col_h5 {
+    margin-bottom: 40px;
+}
+
+
+footer{
+    width: 100%;
+    height: 7rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p{
+    font-family: var(--font-secundary);
+    color: #a7a7a7;
+    font-size: 1.2rem;
+}
+
+.social-list a{
+    margin: 0 2rem;
+    color: #a7a7a7;
+    font-size: 1.3rem;
+}
+
+.social-list ul{
+    display: flex;
+}
